@@ -57,6 +57,9 @@ In Vim, remapping keys is a powerful way to customize your editing experience. I
 27. `vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>")`: This remaps <leader>mr to run the make_it_rain command using the CellularAutomaton plugin. The command presumably generates a cool visual effect.
 
 28. `vim.keymap.set("n", "<leader><leader>", function() vim.cmd("so") end)`: This remaps <leader><leader> to execute the :so command, which sources the current file. This can be useful for quickly reloading configuration changes.
+
+29. `vim.keymap.set("n","<leader>tt",":NvimTreeToggle<CR>")`: This remaps <leader>tt to toggle the nvim tree tab
+
 #
 ## Sets
 
