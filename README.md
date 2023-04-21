@@ -21,7 +21,7 @@ This is my Neovim configuration that uses Lua as its main language. It includes 
 1. Clone this repository to your local machine.
 2. Run the following command in Neovim to install the Packer plugin manager:
 ```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
